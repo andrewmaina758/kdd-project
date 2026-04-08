@@ -1,6 +1,6 @@
-# KDD Project: Student Job Recommendation Prototype
+# KDD Project: Student Job Recommendation
 
-This repository contains a notebook-based prototype for matching students to job opportunities. The project cleans a large job-posting dataset, enriches it with ZIP-code-based location data, converts both jobs and student profiles into TF-IDF vectors, and uses cosine similarity to recommend career directions that look most relevant for a given student.
+This repository contains a notebook for matching students to job opportunities. The project cleans a large job-posting dataset, enriches it with ZIP-code-based location data, converts both jobs and student profiles into TF-IDF vectors, and uses cosine similarity to recommend career directions that look most relevant for a given student.
 
 The core logic currently lives inside [data_cleaning.ipynb](data_cleaning.ipynb). In other words, this project is not a packaged application yet; it is an exploratory pipeline that combines data cleaning, feature engineering, retrieval, and simple recommendation reporting in one notebook.
 
