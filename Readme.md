@@ -425,14 +425,7 @@ If everything is set up correctly, you should see:
 - grouped career-title recommendations
 - top demand states for the strongest recommended roles
 
-## Current Limitations
 
-- The entire workflow is in one notebook rather than reusable Python modules or scripts.
-- `data/postings.csv` is required but not included in the repository.
-- The student dataset depends on a live GitHub URL.
-- The notebook examples use different hard-coded student indices in different sections.
-- The "Machine Learning Model" section is only a plan and has not been implemented yet.
-- The notebook does not currently export recommendations to a file or an API response.
 
 ## Suggested Next Improvements
 
